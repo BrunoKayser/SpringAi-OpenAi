@@ -7,6 +7,12 @@ Este repositório contém uma aplicação completa (backend + frontend) desenvol
 
 🍽️ Criar receitas personalizadas utilizando IA
 
+# Integrações de IA
+- `OpenAi`: Packaage api -> OpenAi-ChatGPT
+- `DeepSeek`: Package api -> DeepSeek (Esta API ainda  não gera imagens, então o endpoint de gerar imagem não vai funcionar)
+
+Recomenda-se subir uma api por vez, dado que ambas estão configuradas na porta 8080 e o front esta integrado para chamar apenas esta api.
+
 # ⚙️ Tecnologias Utilizadas
 ### Backend:
   - Java 21
