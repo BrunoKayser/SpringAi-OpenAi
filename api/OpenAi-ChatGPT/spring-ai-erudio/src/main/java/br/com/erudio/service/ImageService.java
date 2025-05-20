@@ -32,6 +32,9 @@ public class ImageService {
         ImageResponse response = openaiImageModel.call( //Doc do spring: https://docs.spring.io/spring-ai/reference/api/image/openai-image.html
                 new ImagePrompt(prompt,
                         OpenAiImageOptions.builder()
+                                //.model("gpt-image-1") Tentar depois essas configus com o gpt image
+                                //.quality("low")
+                                //.N(4)
                                 .quality(quality)
                                 .N(quantityImages)
                                 .height(height)
