@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: spring-ai-erudio
+#Ativar estas configurações somente quando integração com DeepSeek estiver ok através do Spring
+#  ai:
+#    deepseek:
+#      api-key: "${DEEP_SEEK_API_KEY_ESTUDO_ERUDIO}" #Key gerada no site do deepsek
+#      base-utl: api.deepseek.com
