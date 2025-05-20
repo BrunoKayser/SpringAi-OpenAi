@@ -50,7 +50,7 @@ public class GenerativeAIController {
                                        @RequestParam(defaultValue = "1024") int height,
                                        @RequestParam(defaultValue = "1024") int width){
         //return imageService.generateImage(prompt, quality, quantityImages, height, width);
-        return new ArrayList<>();
+        return List.of("A Deepseek ainda gera imanges, somente texto.");
 
     }
 
